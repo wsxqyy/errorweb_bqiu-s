@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 标题 -->
+    <title>400 错误 - 哎呀，出了点问题！</title>
+    <style>
+        /* 全局样式 */
+
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial, sans-serif; /* Arial 字体 */
+          text-align: center;
+          background-color: #f5f5f5; /* 轻灰背景 */
+        }
+
+        .error-page-container {
+          max-width: 400px; /* 宽度限制为 400px */
+          margin: 40px auto; /* 横向margin 设置为 40px */
+          padding: 20px;
+          border: 1px solid #ddd; /* 边框颜色设置为 #ddd */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 盖子效果 */
+        }
+
+        .error-header {
+          font-size: 36px; /* 字体大小设置为 36px */
+          color: #337ab7; /* 蓝色标题 */
+          margin-bottom: 20px;
+        }
+
+        .error-message {
+          font-size: 18px; /* 字体大小设置为 18px */
+          color: #666; /* 深灰文字颜色 */
+          margin-top: 10px;
+        }
+
+        .error-actions {
+          list-style: none; /* 无序列表样式 */
+          padding: 0;
+          margin-top: 40px;
+        }
+
+        .action-link {
+          text-decoration: none; /* 链接无下划线 */
+          color: #337ab7; /* 蓝色链接颜色 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 错误页面容器 -->
+    <div class="error-page-container">
+        <!-- 标题 -->
+        <h1 class="error-header">哎呀！你已经到达了一个死胡同...</h1>
+        <!-- 消息 -->
+        <p class="error-message">嘿哥们！很抱歉地告诉您，您所寻找的页面不存在。</p>
+        <!-- 动作列表 -->
+        <ul class="error-actions">
+            <li><a href="/" class="action-link">返回首页，重新尝试!</a></li>
+            <li><a href="https://bqiu.top" class="action-link">访问我的博客</a> (如果你感到好奇)</li>
+        </ul>
+    </div>
+</body>
+</html>
